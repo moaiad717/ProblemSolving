@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Algo/Algo.iml" filepath="$PROJECT_DIR$/Algo/Algo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructure/DataStructure.iml" filepath="$PROJECT_DIR$/DataStructure/DataStructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DynamicProgramming/DynamicProgramming.iml" filepath="$PROJECT_DIR$/DynamicProgramming/DynamicProgramming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Expedia/Expedia.iml" filepath="$PROJECT_DIR$/Expedia/Expedia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From 0 To 1 DS and Algo/From 0 To 1 DS and Algo.iml" filepath="$PROJECT_DIR$/From 0 To 1 DS and Algo/From 0 To 1 DS and Algo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Graph Traversal/Graph Traversal.iml" filepath="$PROJECT_DIR$/Graph Traversal/Graph Traversal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java stram/Java stram.iml" filepath="$PROJECT_DIR$/Java stram/Java stram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Neet Code Problem Solving/Neet Code Problem Solving.iml" filepath="$PROJECT_DIR$/Neet Code Problem Solving/Neet Code Problem Solving.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Problem Solving.iml" filepath="$PROJECT_DIR$/Problem Solving.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SearchAlgo/SearchAlgo.iml" filepath="$PROJECT_DIR$/SearchAlgo/SearchAlgo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree Traversal/Tree Traversal.iml" filepath="$PROJECT_DIR$/Tree Traversal/Tree Traversal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TreeQuestions/TreeQuestions.iml" filepath="$PROJECT_DIR$/TreeQuestions/TreeQuestions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/problemSolvingQuestions/problemSolvingQuestions.iml" filepath="$PROJECT_DIR$/problemSolvingQuestions/problemSolvingQuestions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recursions/recursions.iml" filepath="$PROJECT_DIR$/recursions/recursions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sorting/sorting.iml" filepath="$PROJECT_DIR$/sorting/sorting.iml" />
+    </modules>
+  </component>
+</project>
