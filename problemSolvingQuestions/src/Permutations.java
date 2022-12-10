@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * https://leetcode.com/problems/permutations/
@@ -8,6 +6,7 @@ import java.util.Map;
 public class Permutations {
 
     public static void main(String[] args) {
+
         Permutations permutations = new Permutations();
         String val = "abc";
         List<List<Character>> permute = permutations.permute(val.toCharArray());
