@@ -1,7 +1,5 @@
 package tree;
 
-import java.util.Optional;
-
 public class PrintNodesInRange {
 
     public static void printRange(Node root, int min , int high){

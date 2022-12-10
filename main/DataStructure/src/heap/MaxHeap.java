@@ -1,7 +1,5 @@
 package heap;
 
-import java.util.Arrays;
-
 public class MaxHeap<T extends Comparable> extends Heap<T> {
 
     public static void main(String[] args) throws HeapFullException, HeapEmptyException {

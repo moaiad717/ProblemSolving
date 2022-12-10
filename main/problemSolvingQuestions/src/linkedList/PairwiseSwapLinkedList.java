@@ -1,8 +1,5 @@
 package linkedList;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
 public class PairwiseSwapLinkedList {
 
     public static void main(String[] args) {

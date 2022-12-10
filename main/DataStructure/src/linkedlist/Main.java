@@ -1,10 +1,5 @@
 package linkedlist;
 
-import linkedlist.LinkedListImpl;
-
-import java.util.LinkedList;
-import java.util.List;
-
 import  static  linkedlist.LinkedListImpl.Node;
 
 public class Main {
