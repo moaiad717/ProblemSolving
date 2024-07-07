@@ -1,6 +1,9 @@
 package arrays;
 
 import java.util.*;
+import java.util.stream.Collectors;
+
+import static java.util.stream.Collectors.groupingBy;
 
 public class GroupAnagrams {
     public List<List<String>> groupAnagrams(String[] strs) {
@@ -51,8 +54,17 @@ public class GroupAnagrams {
      */
 
     public List<List<String>> groupAnagrams2(String[] strs) {
-        Map<String, List<String>> map = new HashMap();
         List<List<String>> result = new ArrayList();
+
+        Map<String, List<String>> map=Arrays.stream(strs).parallel().collect(Collectors.groupingBy(e-> {
+             char[] chars = e.toCharArray();
+             Arrays.sort(chars);
+            String sortedString = new String(chars);
+             return sortedString;
+         }));
+        for (List<String> list:map.values()){
+            result.add(list);
+        }
 
         for(String s : strs){
             char[] arr = s.toCharArray();

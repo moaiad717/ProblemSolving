@@ -26,13 +26,14 @@ class MinStack {
             myMin= val;
             minValues.push(val);
         }
+
         this.myValues.add(val);
     }
 
     public void pop() {
         if (!this.myValues.isEmpty()){
-            Integer val = this.myValues.remove(this.myValues.size() - 1);
-            if (val.intValue() == minValues.peek()) {
+            int val = this.myValues.remove(this.myValues.size() - 1);
+            if (val == minValues.peek()) {
                 minValues.pop();
 
             if (minValues.isEmpty())

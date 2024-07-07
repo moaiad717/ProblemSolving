@@ -11,13 +11,19 @@ import java.util.Set;
  */
 public class ContainsDuplicate {
 
+    public static void main(String[] args) {
+        new ContainsDuplicate().containsDuplicate(new int[]{1,2});
+    }
     public boolean containsDuplicate(int[] nums) {
-        Map<Integer,Integer> integerMap= new HashMap();
+        Set<Integer> integerMap= new HashSet<>();
         for (int i =0; i< nums.length; i++){
-            if (integerMap.containsKey(nums[i]))
+
+            System.out.println(integerMap.add(1));
+            System.out.println(integerMap.add(1));
+            if (integerMap.contains(nums[i]))
                 return true;
             else
-                integerMap.put(nums[i],0);
+                integerMap.add(nums[i]);
         }
 
         return false;
